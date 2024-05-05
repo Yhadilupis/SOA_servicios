@@ -16,5 +16,5 @@ app.use("/api/v1/tutored", TutorRouter);
 const port:string = process.env.PORT || '3000';
 
 app.listen(port, () => {
-    console.log(`SERVER RUNNING IN http://localhost:${port}.`);
+    console.log(`Servidor corriendo en el puerto: http://localhost:${port}.`);
 });
